@@ -9,4 +9,4 @@ Documentation
  - [SimpleArray][1]
 
 
-  [1]: https://github.com/bocharsky-bw/MappingByObjects/blob/master/Type/Compound/README.md
+  [1]: https://github.com/bocharsky-bw/MappingByObjects/blob/master/src/BW/Type/Compound/README.md
