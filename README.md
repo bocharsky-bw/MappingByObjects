@@ -1,7 +1,7 @@
 MappingByObjects
 ================
 
-Scalar and compound types mapping by objects for strict typing possibility.
+Scalar and compound types mapping by objects for strict typing possibility and better usability.
 
 Documentation
 -------------
