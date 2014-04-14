@@ -156,7 +156,7 @@ You can use any **built-in PHP functions** when work with `SimpleArray`. But fir
     $a = array(0 => 'zero', 1 => 'first');
     $sa = new SimpleArray(array(1 => 'one', 2 => 'two'));
     $sa = SimpleArray::init(array_merge($a, $sa->toArray()));
-    // or use magic invoke to get the PHP array:
+    // or use magic invoke to get the PHP array, called object as function:
     $sa = SimpleArray::init(array_merge($a, $sa()));
 
 ### What's inside?
