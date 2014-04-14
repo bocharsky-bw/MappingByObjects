@@ -109,12 +109,12 @@ You can easy **debug** `SimpleArray` object:
 or output debug information straight to the browser:
 
     $sa->printing(); // equal to: print_r($sa->toArray());
-    $sa->dump(); // equal to: var_dump($sa->toArray());
+    $sa->dumping(); // equal to: var_dump($sa->toArray());
 
-Output automatically will be **wrapped** with `<pre></pre>` tag. If you don't want to use output formatting with `<pre></pre>` tag, you can pass `FALSE` by first parameter to `printing` or `dump` methods:
+Output automatically will be **wrapped** with `<pre></pre>` tag. If you don't want to use output formatting with `<pre></pre>` tag, you can pass `FALSE` by first parameter to `printing` or `dumping` methods:
 
     $sa->printing(FALSE);
-    $sa->dump(FALSE);
+    $sa->dumping(FALSE);
 
 #### How to clone?
 
