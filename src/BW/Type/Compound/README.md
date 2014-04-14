@@ -103,7 +103,7 @@ or do it shorter, called object as function:
 **NOTE:**
 You can also get an element value by key, you need to pass the key in first parameter:
 
-    $two = $sa(2);
+    $two = $sa(2); // get the value by 2 key
 
 #### How to clean?
 
