@@ -57,11 +57,20 @@ To **set** element by index or add element if index not exists:
 
 To check **exists** element by key:
 
-    $sa->exists(6); // return FALSE if there is not exist element by key 6 in array
+    $sa->exists(6); // return FALSE if there is not exist element by 6 key in array
 
 To get **index of element**:
 
     echo $sa->indexOf('fifth'); // output "fifth"
+
+### How to use shortly and more simply?
+
+You can get **shortcut access** to the array elements of `SimpleArray` object like to the simple PHP array:
+
+    $sa[6] = 'some value'; // add/set new value to the array by 6 key
+    $value = $sa[6]; // get value by 6 key
+    isset($sa[6]); // chech isset element in array by 6 key
+    unset($sa[6]); // remove element from array by 6 key
 
 #### How to get length?
 
