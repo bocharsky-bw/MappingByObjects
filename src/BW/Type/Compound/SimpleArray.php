@@ -9,7 +9,6 @@ use BW\Type\Abstracts\Compound;
  * 
  * @link https://github.com/bocharsky-bw/MappingByObjects/blob/master/src/BW/Type/Compound/README.md Documentation of SimpleArray class.
  * @author Bocharsky Victor.
- * @version 1.3.0
  */
 class SimpleArray extends Compound {
     
