@@ -55,6 +55,10 @@ To **set** element by index or add element if index not exists:
     $sa->set(5, 'fifth'); // replace the existing value "five" with "fifth"
     echo $sa->get(5); // output "fifth"
 
+To check **exists** element by key:
+
+    $sa->exists(6); // return FALSE if there is not exist element by key 6 in array
+
 To get **index of element**:
 
     echo $sa->indexOf('fifth'); // output "fifth"
