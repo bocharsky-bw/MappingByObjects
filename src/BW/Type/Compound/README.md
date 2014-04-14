@@ -34,7 +34,7 @@ To get **default value** of `SimpleArray` when initial empty object:
 
 To **check** is `SimpleArray` empty use `isEmpty()` method:
 
-    $sa->isEmpty(); // return TRUE if $sa is empty
+    $sa->isEmpty(); // return TRUE if $sa is empty or FALSE otherwise
 
 To **add** new element to array:
 
@@ -57,7 +57,7 @@ To **set** element by index or add element if index not exists:
 
 To check **exists** element by key:
 
-    $sa->exists(6); // return FALSE if there is not exist element by 6 key in array
+    $sa->exists(6); // return TRUE if element by 6 key is exists in array or FALSE otherwise
 
 To get **index of element**:
 
