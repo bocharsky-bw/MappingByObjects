@@ -7,7 +7,7 @@ use BW\Type\Abstracts\Compound;
 /**
  * Simple PHP array type mapping by object
  * 
- * @link https://github.com/bocharsky-bw/MappingByObjects/blob/master/Type/Compound/README.md Documentation of String class.
+ * @link https://github.com/bocharsky-bw/MappingByObjects/blob/master/src/BW/Type/Compound/README.md Documentation of String class.
  * @author Bocharsky Victor.
  * @version 1.3.0
  */
