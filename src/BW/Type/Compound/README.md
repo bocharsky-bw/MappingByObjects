@@ -94,11 +94,16 @@ To **reverse** an array elements:
 
 You can easy **convert** `SimpleArray` object back to a simple PHP array:
 
-    $a = $sa->toArray();
+    $a = $sa->toArray(); // $a - is a simple PHP array
 
 or do it shorter, called object as function:
 
-    $a = $sa();
+    $a = $sa(); // $a - is a simple PHP array
+
+**NOTE:**
+You can also get an element value by key, you need to pass the key in first parameter:
+
+    $two = $sa(2);
 
 #### How to clean?
 
