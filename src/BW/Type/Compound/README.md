@@ -157,4 +157,4 @@ you only copied a reference to the same object, not a value of it, because in PH
 *It's simple, isn't it? :)*
  
   [1]: https://github.com/bocharsky-bw/MappingByObjects
-  [2]: https://github.com/bocharsky-bw/MappingByObjects/blob/master/Type/Compound/SimpleArray.php
+  [2]: https://github.com/bocharsky-bw/MappingByObjects/blob/master/src/BW/Type/Compound/SimpleArray.php
