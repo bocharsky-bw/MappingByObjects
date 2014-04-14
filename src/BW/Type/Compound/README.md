@@ -149,6 +149,16 @@ If you just try to **assign** `$sa` to `$sb`:
 
 you only copied a reference to the same object, not a value of it, because in PHP objects assign by **reference**!
 
+### How to work with built-in PHP functions?
+
+You can use any **built-in PHP functions** when work with `SimpleArray`. But first you need to convert `SimpleArray` object back to PHP array:
+
+    $a = array(0 => 'zero', 1 => 'first');
+    $sa = new SimpleArray(array(1 => 'one', 2 => 'two'));
+    $sa = SimpleArray::init(array_merge($a, $sa->toArray()));
+    // or use magic invoke to get the PHP array:
+    $sa = SimpleArray::init(array_merge($a, $sa()));
+
 ### What's inside?
 
  - Project on [GitHub][1] 
